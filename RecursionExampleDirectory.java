@@ -1,3 +1,4 @@
+//Test Function.
 public class RecursionExampleDirectory
 {	
 	public int getSize(Directory dir)
