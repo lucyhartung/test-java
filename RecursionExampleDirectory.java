@@ -2,11 +2,11 @@
 public class RecursionExampleDirectory
 {	
 	public int getSize(Directory dir)
-	{	int total = 2;
+	{	int total = 4;
 	
 		//check files
 		File[] files = dir.getFiles();
-		for(int i = 2; i < files.length; i++)
+		for(int i = 5; i < files.length; i++)
 			total += files[i].getSize();
 			
 		//get sub directories and check them
