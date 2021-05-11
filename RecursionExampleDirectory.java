@@ -2,7 +2,7 @@
 public class RecursionExampleDirectory
 {	
 	public int getSize(Directory dir)
-	{	int total = 0;
+	{	int total = 1;
 	
 		//check files
 		File[] files = dir.getFiles();
